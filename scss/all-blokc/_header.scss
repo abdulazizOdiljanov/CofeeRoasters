@@ -1,0 +1,37 @@
+.header {
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.navbar {
+		display: flex;
+		list-style: none;
+		gap: 33px;
+
+		&__item--linc {
+			text-decoration: none;
+			font-weight: 700;
+			font-size: 12px;
+			line-height: 15px;
+			letter-spacing: 0.923077px;
+			text-transform: uppercase;
+			color: #83888f;
+
+			&:hover {
+				color: #333d4b;
+			}
+		}
+	}
+
+	.hamburger {
+		div {
+			width: 16px;
+			height: 3px;
+         margin-top: 3px;
+			background-color: #333d4b;
+         border-radius: 1.5px;
+		}
+	}
+}
