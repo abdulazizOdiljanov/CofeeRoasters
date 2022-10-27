@@ -9,6 +9,8 @@ html {
 *::after {
     box-sizing: border-box;
     transition: all .3s ease;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -32,6 +34,8 @@ img {
 h1,h2,h3 {
     font-family: 'Fraunces 9pt S000', sans-serif;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
 }
 
 

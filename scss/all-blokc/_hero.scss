@@ -1,0 +1,26 @@
+.hero {
+	&__container {
+		background-image: url(../../images/HomePage/main/bgImg.png);
+		min-height: 601px;
+		border-radius: 10px;
+		color: $white;
+      padding: 117px 0 0 85px;
+	}
+
+	&__title {
+		font-size: 72px;
+		line-height: 72px;
+		max-width: 493px;
+		color: #fefcf7;
+	}
+
+	&__desc {
+      margin: 32px 0 56px 0;
+		font-size: 16px;
+		line-height: 26px;
+		color: #fefcf7;
+		mix-blend-mode: normal;
+      max-width: 445px;
+		opacity: 0.8;
+	}
+}

@@ -1,0 +1,36 @@
+.collections {
+	&__container {
+      padding-top: 262px;
+		display: flex;
+		justify-content: space-between;
+      background-position: center 115px;
+      background-size: contain;
+      background-image: url(../../images/HomePage/collections/bg.png);
+      background-repeat: no-repeat;
+	}
+
+	.card {
+		max-width: 255px;
+		text-align: center;
+
+		&__img {
+			width: 255px;
+			height: 193px;
+		}
+
+		&__title {
+			font-size: 24px;
+			line-height: 32px;
+			text-align: center;
+			color: #333d4b;
+         margin: 71px 0 24px 0;
+		}
+
+		&__desc {
+			font-size: 16px;
+			line-height: 26px;
+			text-align: center;
+			color: #333d4b;
+		}
+	}
+}

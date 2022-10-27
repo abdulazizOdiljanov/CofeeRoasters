@@ -1,5 +1,17 @@
-.button {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+.btn {
+	padding: 15px 31px;
+	margin: 0;
+	text-decoration: none;
+	border: none;
+	background: #66d2cf;
+	border-radius: 6px;
+
+	a {
+		text-decoration: none;
+        font-family: 'Fraunces 9pt S000', sans-serif;
+		font-weight: 900;
+		font-size: 18px;
+		line-height: 25px;
+		color: #fefcf7;
+	}
 }
