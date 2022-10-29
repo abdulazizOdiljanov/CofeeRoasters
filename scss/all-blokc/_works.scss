@@ -1,0 +1,62 @@
+.works {
+	margin-top: 350px;
+	&__cards {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__desc {
+		font-size: 24px;
+		line-height: 32px;
+		color: #83888f;
+	}
+
+   &__top {
+      background-color: #FDD6BA;
+      border: 2px solid #FDD6BA;
+      max-width: 870px;
+      max-height: 1px;
+      margin: 95px 0 82px 0;
+      margin-left: 30px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      div {
+         margin: -16px -10px 0;
+         width: 32px;
+         height: 32px;
+         background-color: #fff;
+         border-radius: 50%;
+         border: 2px solid #0E8784;
+      }
+   }
+
+	.card {
+		max-width: 285px;
+
+		&__num {
+			font-size: 72px;
+			line-height: 72px;
+			color: #fdd6ba;
+		}
+
+		&__title {
+			font-size: 32px;
+			line-height: 36px;
+         padding: 38px 0 42px;
+         max-width: 255px;
+			color: #333d4b;
+		}
+
+		&__desc {
+			font-size: 16px;
+			line-height: 26px;
+			color: #333d4b;
+		}
+	}
+
+   .btn {
+      margin-top: 64px;
+   }
+}

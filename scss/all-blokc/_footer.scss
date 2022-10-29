@@ -1,0 +1,36 @@
+.footer {
+   margin-top: 200px;
+	&__container {
+		background-color: #2c343e;
+		display: flex;
+		justify-content: space-between;
+		padding: 47px 85px;
+		align-items: center;
+	}
+
+	.footer__list {
+		display: flex;
+      list-style: none;
+		gap: 32px;
+
+		.footer__item a {
+			text-decoration: none;
+         font-weight: 700;
+			font-size: 12px;
+			line-height: 15px;
+			letter-spacing: 0.923077px;
+			text-transform: uppercase;
+			color: #83888f;
+
+         &:hover {
+            color: #fff;
+         }
+		}
+	}
+
+	&__lincs {
+		display: flex;
+		list-style: none;
+		gap: 24px;
+	}
+}
